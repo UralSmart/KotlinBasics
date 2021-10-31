@@ -1,8 +1,9 @@
-import java.util.Scanner
-
 fun main() {
-    val scanner = Scanner(System.`in`)
-    val y = scanner.nextDouble()
-    println(y.toLong())
 
+    val a = readLine()!!.toInt()
+//    val b = readLine()!!.toInt()
+//    val c = readLine()!!.toInt()
+
+    if (a > 0) {print("YES")}
+    else {print("NO")}
 }
